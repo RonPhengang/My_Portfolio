@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body {
+  font-family: 'Arial', sans-serif;
+  background-color:azure;
+}
+
+.navbar {
+  padding: 20px 0;
+}
+.navbar {
+  background: transparent !important;
+  position: absolute;
+  width: 100%;
+}
+.navbar .nav-link, 
+.navbar .navbar-brand {
+  color: white !important;
+  font-size: 25px;
+}
+.navbar-brand{
+  font-family: "Lobster Two";
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 20px;
+}
+.hero-section {
+  background: url('img/image.png') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 0 30px;
+}
+
+.hero-section .highlight {
+  color: #ff4081;
+}
+
+.hero-section h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.typing-text {
+  font-size: 28px;
+  font-weight: bold;
+  color: #ffcc00;
+  display: inline-block;
+}
+@media (max-width: 768px) {
+  .img-fluid {
+      max-width: 100%;
+      height: auto;
+  }
+}
